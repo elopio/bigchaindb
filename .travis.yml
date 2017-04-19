@@ -1,3 +1,10 @@
+dist: trusty
+sudo: required
+services:
+  - docker
+git:
+  depth: 2
+
 language: python
 cache: pip
 
